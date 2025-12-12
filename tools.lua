@@ -27,7 +27,7 @@ local pick_admin_toolcaps = {
 minetest.register_tool("maptools:pick_admin", {
 	description = S("Admin Pickaxe"),
 	range = 20,
-	inventory_image = "maptools_adminpick.png",
+	inventory_image = "IMG_20251212_203049.png",
 	groups = {not_in_creative_inventory = maptools.creative},
 	tool_capabilities = pick_admin_toolcaps,
 	on_drop = maptools.drop_msg,
@@ -36,7 +36,7 @@ minetest.register_tool("maptools:pick_admin", {
 minetest.register_tool("maptools:pick_admin_with_drops", {
 	description = S("Admin Pickaxe with Drops"),
 	range = 20,
-	inventory_image = "maptools_adminpick_with_drops.png",
+	inventory_image = "IMG_20251212_203049.png",
 	groups = {not_in_creative_inventory = maptools.creative},
 	tool_capabilities = pick_admin_toolcaps,
 	on_drop = maptools.drop_msg,
